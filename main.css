@@ -1,0 +1,112 @@
+.banner {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .banner .bannertiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .banner .bannertiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
+  
+  .banner:hover .bannertiptext {
+    visibility: visible;
+  }
+
+
+
+
+
+  .profile_class {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+    
+  }
+
+  #profile{
+     margin-left: 50%; 
+    
+  }
+
+  .profile_description{
+    margin-left: 40%; 
+    margin-right:30%;
+  }
+
+  .profile_heading{
+    margin-left: 40%; 
+    margin-right:30%;
+  }
+
+
+hr.line{
+  border: 10px solid green;
+  border-radius: 5px;
+  margin-left:20%;
+  margin-right: 20%;
+}
+
+
+#project{
+  height:200px;
+  width:200px;
+
+  border: 1px solid green;
+  border-radius: 5px;
+  
+  
+}
+
+.project_container{
+    border: 1px solid green;
+    width:60%;
+    margin-left:20%;
+    margin-right:0 20%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
